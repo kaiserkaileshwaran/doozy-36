@@ -1,0 +1,14 @@
+export default [
+  {
+    ignores: [".next/*", "scratch/*", "node_modules/*"]
+  },
+  {
+    rules: {
+      "@next/next/no-img-element": "off",
+      "react/no-unescaped-entities": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-explicit-any": "off"
+    }
+  }
+];

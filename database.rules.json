@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "doozy_core": {
+      ".read": true,
+      ".write": true
+    },
+    "doozy_push": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
